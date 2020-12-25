@@ -7,11 +7,14 @@ using namespace std;
 int main() {
 
   for (int i = 1; i < 10; i++) {
-    cout << setw(4) << i ;
-    if (i == 3 || i == 6) {
+    cout << setw(4) << i;
+
+    if (i == 3 || i == 6 || i == 9) {
       cout << "\n";
     }
+
   }
+
 
   return 0;
 }
